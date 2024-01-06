@@ -57,19 +57,31 @@ public class LeetCode1235 {
       int maxProfitWithoutCurrentJob;
 
       // case 1: calculate the maximum profit including the current job in schedule
-      int nextJob = -1;
-      for (int i = currentJob + 1; i < jobs.length; ++i) {
-        if (jobs[i].startTime >= jobs[currentJob].endTime) {
-          nextJob = i;
-          break;
-        }
-      }
+      int nextJob = nextNonConflictJob(jobs, currentJob);
       if (nextJob != -1) {
         maxProfitWithCurrentJob += jobScheduling(jobs, nextJob, memo);
       }
       // case 2: calculate nextJob if current job was not considered.
       maxProfitWithoutCurrentJob = jobScheduling(jobs, currentJob + 1, memo);
       return memo[currentJob] = Math.max(maxProfitWithCurrentJob, maxProfitWithoutCurrentJob);
+    }
+
+    private int nextNonConflictJob(Job[] jobs, int currentJob) {
+      int lo = currentJob + 1;
+      int hi = jobs.length - 1;
+      int optimalAnswer = -1;
+
+      while (lo <= hi) {
+        int mid = (hi - lo) / 2 + lo;
+
+        if (jobs[mid].startTime >= jobs[currentJob].endTime) {
+          optimalAnswer = mid;
+          hi = mid - 1;
+        } else {
+          lo = mid + 1;
+        }
+      }
+      return optimalAnswer;
     }
   }
 
