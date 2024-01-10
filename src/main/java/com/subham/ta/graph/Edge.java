@@ -1,9 +1,8 @@
 package com.subham.ta.graph;
 
+import java.util.Objects;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-
-import java.util.Objects;
 
 @AllArgsConstructor
 @Getter
