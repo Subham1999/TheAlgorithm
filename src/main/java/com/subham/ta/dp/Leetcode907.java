@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class Leetcode907 {
   private static class Solution {
-    private static final int LARGE_NUM = 1000_000_000 + 1;
+    private static final int LARGE_NUM = 1000_000_000 + 7;
 
     public int sumSubarrayMins(int[] arr) {
       int[] rightBoundary = new int[arr.length];
