@@ -3,6 +3,12 @@ package com.subham.ta.dp;
 import java.util.Stack;
 
 public class Leetcode907 {
+  public static void main(String[] args) {
+    Solution solution = new Solution();
+    System.out.println(solution.sumSubarrayMins(new int[] {3, 1, 2, 4}));
+    System.out.println(solution.sumSubarrayMins(new int[] {11, 81, 94, 43, 3}));
+  }
+
   private static class Solution {
     private static final int LARGE_NUM = 1000_000_000 + 7;
 
@@ -51,11 +57,5 @@ public class Leetcode907 {
         stack.push(i);
       }
     }
-  }
-
-  public static void main(String[] args) {
-    Solution solution = new Solution();
-    System.out.println(solution.sumSubarrayMins(new int[] {3, 1, 2, 4}));
-    System.out.println(solution.sumSubarrayMins(new int[] {11, 81, 94, 43, 3}));
   }
 }

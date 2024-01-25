@@ -3,6 +3,13 @@ package com.subham.ta.strings;
 import java.util.Arrays;
 
 public class LeetCode1624 {
+  public static void main(String[] args) {
+    Solution solution = new Solution();
+    //    System.out.println(solution.maxLengthBetweenEqualCharacters("aa"));
+    //    System.out.println(solution.maxLengthBetweenEqualCharacters("baab"));
+    System.out.println(solution.maxLengthBetweenEqualCharacters("mgntdygtxrvxjnwksqhxuxtrv"));
+  }
+
   static class Solution {
     public int maxLengthBetweenEqualCharacters(String s) {
       int[] lastOccurrence = new int[26];
@@ -21,12 +28,5 @@ public class LeetCode1624 {
 
       return maxLength;
     }
-  }
-
-  public static void main(String[] args) {
-    Solution solution = new Solution();
-//    System.out.println(solution.maxLengthBetweenEqualCharacters("aa"));
-//    System.out.println(solution.maxLengthBetweenEqualCharacters("baab"));
-    System.out.println(solution.maxLengthBetweenEqualCharacters("mgntdygtxrvxjnwksqhxuxtrv"));
   }
 }

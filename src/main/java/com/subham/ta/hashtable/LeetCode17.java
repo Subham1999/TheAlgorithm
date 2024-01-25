@@ -3,6 +3,12 @@ package com.subham.ta.hashtable;
 import java.util.*;
 
 public class LeetCode17 {
+  public static void main(String[] args) {
+    Solution solution = new Solution();
+    System.out.println(solution.letterCombinations("23"));
+    System.out.println(solution.letterCombinations("32462"));
+  }
+
   static class Solution {
     private final Map<Character, Set<Character>> mobileKeypad;
 
@@ -45,11 +51,5 @@ public class LeetCode17 {
         calculatedPrefix.deleteCharAt(calculatedPrefix.length() - 1);
       }
     }
-  }
-
-  public static void main(String[] args) {
-    Solution solution = new Solution();
-    System.out.println(solution.letterCombinations("23"));
-    System.out.println(solution.letterCombinations("32462"));
   }
 }

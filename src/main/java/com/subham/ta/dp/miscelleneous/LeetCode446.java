@@ -6,6 +6,17 @@ import java.util.List;
 import java.util.Map;
 
 public class LeetCode446 {
+  public static void main(String[] args) {
+    Solution solution = new Solution();
+
+    System.out.println(solution.numberOfArithmeticSlices(new int[] {1, 2, 1, 2, 4, 1, 5, 10}));
+    System.out.println(solution.numberOfArithmeticSlices(new int[] {2, 4, 6, 8, 10}));
+    System.out.println(
+        solution.numberOfArithmeticSlices(new int[] {10, 9, 8, 7, 6, 5, 4, 3, 2, 1}));
+    System.out.println(solution.numberOfArithmeticSlices(new int[] {10, 10, 10, 10}));
+    System.out.println(solution.numberOfArithmeticSlices(new int[] {0, 2000000000, -294967296}));
+  }
+
   private static class Solution {
     public int numberOfArithmeticSlices(int[] nums) {
       final List<Map<Integer, Integer>> differenceToElementCount = new ArrayList<>();
@@ -42,16 +53,5 @@ public class LeetCode446 {
       System.out.println(differenceToElementCount);
       return answer;
     }
-  }
-
-  public static void main(String[] args) {
-    Solution solution = new Solution();
-
-    System.out.println(solution.numberOfArithmeticSlices(new int[] {1, 2, 1, 2, 4, 1, 5, 10}));
-    System.out.println(solution.numberOfArithmeticSlices(new int[] {2, 4, 6, 8, 10}));
-    System.out.println(
-        solution.numberOfArithmeticSlices(new int[] {10, 9, 8, 7, 6, 5, 4, 3, 2, 1}));
-    System.out.println(solution.numberOfArithmeticSlices(new int[] {10, 10, 10, 10}));
-    System.out.println(solution.numberOfArithmeticSlices(new int[] {0, 2000000000, -294967296}));
   }
 }

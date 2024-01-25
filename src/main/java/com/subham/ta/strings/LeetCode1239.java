@@ -3,17 +3,14 @@ package com.subham.ta.strings;
 import java.util.List;
 
 public class LeetCode1239 {
-  private static class Solution {
-    public int maxLength(List<String> arr) {
-      int mask = ((int) Math.pow(2, arr.size())) - 1;
-      int maxLength = 0;
-      while (mask > 0) {
-        maxLength = Math.max(maxLength, checkUniqueNess(mask, arr));
-        mask--;
-      }
-      return maxLength;
-    }
+  public static void main(String[] args) {
+    Solution solution = new Solution();
+    System.out.println(solution.maxLength(List.of("un", "iq", "ue")));
+    System.out.println(solution.maxLength(List.of("abcdefghijklmnopqrstuvwxyz")));
+    System.out.println(solution.maxLength(List.of("cha", "r", "act", "ers")));
+  }
 
+  private static class Solution {
     private static int checkUniqueNess(int mask, List<String> arr) {
       int m = mask;
       int ans = 0;
@@ -38,12 +35,15 @@ public class LeetCode1239 {
         chars[s.charAt(i) - 'a']++;
       }
     }
-  }
 
-  public static void main(String[] args) {
-    Solution solution = new Solution();
-    System.out.println(solution.maxLength(List.of("un", "iq", "ue")));
-    System.out.println(solution.maxLength(List.of("abcdefghijklmnopqrstuvwxyz")));
-    System.out.println(solution.maxLength(List.of("cha", "r", "act", "ers")));
+    public int maxLength(List<String> arr) {
+      int mask = ((int) Math.pow(2, arr.size())) - 1;
+      int maxLength = 0;
+      while (mask > 0) {
+        maxLength = Math.max(maxLength, checkUniqueNess(mask, arr));
+        mask--;
+      }
+      return maxLength;
+    }
   }
 }
