@@ -56,7 +56,7 @@ public class CpTemplate {
     int n = cpUtils.intVal();
   }
 
-  private static class Solution {
+  private static final class Solution {
     void solve() {}
   }
 }
