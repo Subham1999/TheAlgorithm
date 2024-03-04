@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class CpTemplate {
-  public static final class CpUtils {
+  private static final class CpUtils {
     private final BufferedReader br;
     private StringTokenizer st;
 
