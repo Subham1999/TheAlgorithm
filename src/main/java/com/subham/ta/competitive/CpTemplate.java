@@ -6,7 +6,12 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class CpTemplate {
-  private static final class CpUtils {
+  public static void main(String[] args) {
+    CpUtils cpUtils = CpUtils.getInstance();
+    int n = cpUtils.intVal();
+  }
+
+  static final class CpUtils {
     private final BufferedReader br;
     private StringTokenizer st;
 
@@ -49,11 +54,6 @@ public class CpTemplate {
         return null;
       }
     }
-  }
-
-  public static void main(String[] args) {
-    CpUtils cpUtils = CpUtils.getInstance();
-    int n = cpUtils.intVal();
   }
 
   private static final class Solution {

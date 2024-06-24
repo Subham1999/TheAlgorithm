@@ -14,7 +14,7 @@ public class RxDemo1 {
   public static void main(String[] args) {
     BigDecimal initial = BigDecimal.valueOf(1);
 
-    for(int i = 0; i < 30; i++) {
+    for (int i = 0; i < 30; i++) {
       initial = initial.add(initial.multiply(BigDecimal.valueOf(1.01)));
     }
     System.out.println(initial);
