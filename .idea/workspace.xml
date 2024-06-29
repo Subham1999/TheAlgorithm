@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="LeetCode1239">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/array/NextPermutationFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/commons/QuickSelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/concurr/que/IQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/concurr/que/QueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/concurr/que/SimpleBlockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/lld/DatabaseLocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="code refactor" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -282,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709577893204</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="code refactor">
+      <option name="closed" value="true" />
+      <created>1719246568449</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719246568449</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,7 +304,8 @@
     <MESSAGE value="LEETCODE:446" />
     <MESSAGE value="LEETCODE:907" />
     <MESSAGE value="LeetCode1239" />
-    <option name="LAST_COMMIT_MESSAGE" value="LeetCode1239" />
+    <MESSAGE value="code refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="code refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
