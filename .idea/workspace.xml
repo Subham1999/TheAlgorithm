@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="Added new code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/dp/lis/Leetcode1653.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/graph/PrimsMST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/stackqueue/EvaluateReversePolish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/array/matrix/SpiralIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/graph/CloneGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/graph/IslandsAndTreasures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/graph/PacificAtlanticWaterFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/stacks/CarFleet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/stacks/LargestRectangleHistorgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/stacks/MaximumRectangle2DMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/strings/LongestRepeatingCharacterReplacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/strings/LongestSubstringLargeDatasize.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp_code/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp_code/hw.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp_code/hw.dSYM/Contents/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp_code/hw.dSYM/Contents/Resources/DWARF/hw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cpp_code/hw.dSYM/Contents/Resources/Relocations/aarch64/hw.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,13 +93,13 @@
       <recent name="com.subham.ta.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EvaluateReversePolish">
-    <configuration name="EvaluateReversePolish" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.subham.ta.stackqueue.EvaluateReversePolish" />
+  <component name="RunManager" selected="Application.MaximumRectangle2DMatrix">
+    <configuration name="CarFleet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.subham.ta.stacks.CarFleet" />
       <module name="TheAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.subham.ta.stackqueue.*" />
+          <option name="PATTERN" value="com.subham.ta.stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FloydWarshallAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.subham.ta.graph.FloydWarshallAlgorithm" />
+    <configuration name="LargestRectangleHistorgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.subham.ta.stacks.LargestRectangleHistorgram" />
       <module name="TheAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.subham.ta.graph.*" />
+          <option name="PATTERN" value="com.subham.ta.stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode2045" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.subham.ta.graph.LeetCode2045" />
+    <configuration name="LongestRepeatingCharacterReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.subham.ta.strings.LongestRepeatingCharacterReplacement" />
       <module name="TheAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.subham.ta.graph.*" />
+          <option name="PATTERN" value="com.subham.ta.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode1653" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.subham.ta.dp.lis.Leetcode1653" />
+    <configuration name="LongestSubstringLargeDatasize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.subham.ta.strings.LongestSubstringLargeDatasize" />
       <module name="TheAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.subham.ta.dp.lis.*" />
+          <option name="PATTERN" value="com.subham.ta.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopologicalSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.subham.ta.graph.TopologicalSort" />
+    <configuration name="MaximumRectangle2DMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.subham.ta.stacks.MaximumRectangle2DMatrix" />
       <module name="TheAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.subham.ta.graph.*" />
+          <option name="PATTERN" value="com.subham.ta.stacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EvaluateReversePolish" />
-        <item itemvalue="Application.Leetcode1653" />
-        <item itemvalue="Application.TopologicalSort" />
-        <item itemvalue="Application.LeetCode2045" />
-        <item itemvalue="Application.FloydWarshallAlgorithm" />
+        <item itemvalue="Application.MaximumRectangle2DMatrix" />
+        <item itemvalue="Application.LargestRectangleHistorgram" />
+        <item itemvalue="Application.LongestSubstringLargeDatasize" />
+        <item itemvalue="Application.CarFleet" />
+        <item itemvalue="Application.LongestRepeatingCharacterReplacement" />
       </list>
     </recent_temporary>
   </component>
@@ -398,8 +409,38 @@
           <line>76</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/subham/ta/array/matrix/JumpOnMatrix.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/subham/ta/array/matrix/SpiralIII.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/subham/ta/stacks/CarFleet.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/subham/ta/strings/LongestSubstringLargeDatasize.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/subham/ta/stacks/LargestRectangleHistorgram.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="heights[stack.peek()]" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
