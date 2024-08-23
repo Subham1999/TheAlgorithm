@@ -3,6 +3,22 @@ package com.subham.ta.array;
 import java.util.function.Consumer;
 
 public class LeetCode1605 {
+  public static void main(String[] args) {
+    Consumer<int[][]> debug =
+        (mat) -> {
+          for (int i = 0; i < mat.length; ++i) {
+            for (int j = 0; j < mat[i].length; ++j) {
+              System.out.printf("%d\t", mat[i][j]);
+            }
+            System.out.println();
+          }
+        };
+
+    debug.accept(
+        new LeetCode1605.Solution()
+            .restoreMatrix(new int[] {1000_000_000, 1}, new int[] {0, 1000_000_000}));
+  }
+
   static class Solution {
     public int[][] restoreMatrix(int[] rowSum, int[] colSum) {
       int ROW = rowSum.length;
@@ -19,19 +35,5 @@ public class LeetCode1605 {
       }
       return mat;
     }
-  }
-
-  public static void main(String[] args) {
-    Consumer<int[][]> debug =
-        (mat) -> {
-          for (int i = 0; i < mat.length; ++i) {
-            for (int j = 0; j < mat[i].length; ++j) {
-              System.out.printf("%d\t", mat[i][j]);
-            }
-            System.out.println();
-          }
-        };
-
-    debug.accept(new LeetCode1605.Solution().restoreMatrix(new int[] {1000_000_000, 1}, new int[] {0, 1000_000_000}));
   }
 }

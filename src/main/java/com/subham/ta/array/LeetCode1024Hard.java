@@ -4,29 +4,14 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LeetCode1024Hard {
+  public static void main(String[] args) {
+    int[][] mat = {{0, 1, 0}, {1, 1, 1}, {0, 1, 0}};
+    //    System.out.println(new Solution().numSubmatrixSumTarget(mat, 0));
+    int[][] mat2 = {{1, -1}, {-1, 1}};
+    System.out.println(new Solution().numSubmatrixSumTarget(mat2, 0));
+  }
+
   static class Solution {
-    public int numSubmatrixSumTarget(int[][] matrix, int target) {
-      int[][] psa = buildPrefixSum2D(matrix);
-
-      // start the process
-      int count = 0;
-
-      for (int r1 = 0; r1 < psa.length; ++r1) {
-        for (int r2 = r1; r2 < psa.length; ++r2) {
-
-          Map<Integer, Integer> sumFrequency = new HashMap<>();
-          for (int c = 0; c < psa[0].length; ++c) {
-            int querySum = querySum(r1, 0, r2, c, psa);
-            if (querySum == target) count++;
-            count += sumFrequency.getOrDefault(querySum - target, 0);
-            sumFrequency.put(querySum, 1 + sumFrequency.getOrDefault(querySum, 0));
-          }
-        }
-      }
-
-      return count;
-    }
-
     private static int[][] buildPrefixSum2D(int[][] matrix) {
       int[][] psa = new int[matrix.length][matrix[0].length];
 
@@ -66,12 +51,27 @@ public class LeetCode1024Hard {
       }
       return psa[r][j];
     }
-  }
 
-  public static void main(String[] args) {
-    int[][] mat = {{0, 1, 0}, {1, 1, 1}, {0, 1, 0}};
-    //    System.out.println(new Solution().numSubmatrixSumTarget(mat, 0));
-    int[][] mat2 = {{1, -1}, {-1, 1}};
-    System.out.println(new Solution().numSubmatrixSumTarget(mat2, 0));
+    public int numSubmatrixSumTarget(int[][] matrix, int target) {
+      int[][] psa = buildPrefixSum2D(matrix);
+
+      // start the process
+      int count = 0;
+
+      for (int r1 = 0; r1 < psa.length; ++r1) {
+        for (int r2 = r1; r2 < psa.length; ++r2) {
+
+          Map<Integer, Integer> sumFrequency = new HashMap<>();
+          for (int c = 0; c < psa[0].length; ++c) {
+            int querySum = querySum(r1, 0, r2, c, psa);
+            if (querySum == target) count++;
+            count += sumFrequency.getOrDefault(querySum - target, 0);
+            sumFrequency.put(querySum, 1 + sumFrequency.getOrDefault(querySum, 0));
+          }
+        }
+      }
+
+      return count;
+    }
   }
 }

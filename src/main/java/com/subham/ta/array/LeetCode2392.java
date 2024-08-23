@@ -6,6 +6,23 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public class LeetCode2392 {
+  public static void main(String[] args) {
+    int k = 8;
+    int[][] rowConditions = {
+      {1, 2}, {7, 3}, {4, 3}, {5, 8}, {7, 8}, {8, 2}, {5, 8}, {3, 2}, {1, 3}, {7, 6}, {4, 3},
+      {7, 4}, {4, 8}, {7, 3}, {7, 5}
+    };
+    int[][] colConditions = {{5, 7}, {2, 7}, {4, 3}, {6, 7}, {4, 3}, {2, 3}, {6, 2}};
+    int[][] ints = new Solution().buildMatrix(k, rowConditions, colConditions);
+
+    for (int i = 0; i < ints.length; ++i) {
+      for (int j = 0; j < ints[i].length; ++j) {
+        System.out.printf("%d\t", ints[i][j]);
+      }
+      System.out.println();
+    }
+  }
+
   static class Solution {
     private static final int VISITED = 3;
     private static final int IN_PROGRESS = 2;
@@ -65,23 +82,6 @@ public class LeetCode2392 {
       }
       visited[node] = VISITED;
       completed.add(node);
-    }
-  }
-
-  public static void main(String[] args) {
-    int k = 8;
-    int[][] rowConditions = {
-      {1, 2}, {7, 3}, {4, 3}, {5, 8}, {7, 8}, {8, 2}, {5, 8}, {3, 2}, {1, 3}, {7, 6}, {4, 3},
-      {7, 4}, {4, 8}, {7, 3}, {7, 5}
-    };
-    int[][] colConditions = {{5, 7}, {2, 7}, {4, 3}, {6, 7}, {4, 3}, {2, 3}, {6, 2}};
-    int[][] ints = new Solution().buildMatrix(k, rowConditions, colConditions);
-
-    for (int i = 0; i < ints.length; ++i) {
-      for (int j = 0; j < ints[i].length; ++j) {
-        System.out.printf("%d\t", ints[i][j]);
-      }
-      System.out.println();
     }
   }
 }

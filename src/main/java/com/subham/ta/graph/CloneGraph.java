@@ -8,6 +8,39 @@ import java.util.Map;
 import java.util.Set;
 
 public class CloneGraph {
+  public static void main(String[] args) {
+    Node node1 = new Node(1, new ArrayList<>());
+    Node node2 = new Node(2, new ArrayList<>());
+    Node node3 = new Node(3, new ArrayList<>());
+    Node node4 = new Node(4, new ArrayList<>());
+
+    node1.neighbors.add(node2);
+    node1.neighbors.add(node4);
+
+    node2.neighbors.add(node1);
+    node2.neighbors.add(node3);
+
+    node3.neighbors.add(node2);
+    node3.neighbors.add(node4);
+
+    node4.neighbors.add(node1);
+    node4.neighbors.add(node3);
+
+    Node cloned = new Solution().cloneGraph(node1);
+    printDfs(node1, new HashSet<>());
+    System.out.println("--- new --- ");
+    printDfs(cloned, new HashSet<>());
+  }
+
+  static void printDfs(Node node, Set<Integer> visited) {
+    if (visited.contains(node.val)) {
+      return;
+    }
+    System.out.println(node.val + " neighbours = [" + node.neighbors.size() + "] ");
+    visited.add(node.val);
+    node.neighbors.forEach(n -> printDfs(n, visited));
+  }
+
   static class Node {
     public int val;
     public List<Node> neighbors;
@@ -70,38 +103,5 @@ public class CloneGraph {
       dfs2(node, clonedNodes, visited);
       return clonedNodes.get(node.val);
     }
-  }
-
-  public static void main(String[] args) {
-    Node node1 = new Node(1, new ArrayList<>());
-    Node node2 = new Node(2, new ArrayList<>());
-    Node node3 = new Node(3, new ArrayList<>());
-    Node node4 = new Node(4, new ArrayList<>());
-
-    node1.neighbors.add(node2);
-    node1.neighbors.add(node4);
-
-    node2.neighbors.add(node1);
-    node2.neighbors.add(node3);
-
-    node3.neighbors.add(node2);
-    node3.neighbors.add(node4);
-
-    node4.neighbors.add(node1);
-    node4.neighbors.add(node3);
-
-    Node cloned = new Solution().cloneGraph(node1);
-    printDfs(node1, new HashSet<>());
-    System.out.println("--- new --- ");
-    printDfs(cloned, new HashSet<>());
-  }
-
-  static void printDfs(Node node, Set<Integer> visited) {
-    if (visited.contains(node.val)) {
-      return;
-    }
-    System.out.println(node.val + " neighbours = [" + node.neighbors.size() + "] ");
-    visited.add(node.val);
-    node.neighbors.forEach(n -> printDfs(n, visited));
   }
 }

@@ -9,6 +9,29 @@ import java.util.Map;
 import java.util.Queue;
 
 public class LeetCode2045 {
+  public static void main(String[] args) {
+    test1();
+    test2();
+  }
+
+  private static void test1() {
+    int n = 6;
+    int[][] edges = {{1, 2}, {1, 3}, {3, 5}, {2, 4}, {5, 4}, {4, 6}};
+    int time = 3;
+    int change = 100;
+    System.out.println(new Solution().secondMinimum(n, edges, time, change));
+  }
+
+  private static void test2() {
+    int n = 8;
+    int[][] edges = {
+      {1, 2}, {1, 3}, {2, 5}, {2, 4}, {3, 4}, {3, 5}, {3, 6}, {5, 7}, {6, 7}, {7, 8}
+    };
+    int time = 1;
+    int change = 100;
+    System.out.println(new Solution().secondMinimum(n, edges, time, change));
+  }
+
   static class Solution {
 
     public int secondMinimum(int n, int[][] edges, int time, int change) {
@@ -57,7 +80,7 @@ public class LeetCode2045 {
 
       int nodeCount = dist[n][1] == -1 ? dist[n][0] + 2 : dist[n][1];
 
-//      System.out.println(Arrays.toString(dist[n]));
+      //      System.out.println(Arrays.toString(dist[n]));
       return calculateTime(nodeCount + 1, time, change);
     }
 
@@ -73,28 +96,5 @@ public class LeetCode2045 {
       }
       return totalTime;
     }
-  }
-
-  public static void main(String[] args) {
-    test1();
-    test2();
-  }
-
-  private static void test1() {
-    int n = 6;
-    int[][] edges = {{1, 2}, {1, 3}, {3, 5}, {2, 4}, {5, 4}, {4, 6}};
-    int time = 3;
-    int change = 100;
-    System.out.println(new Solution().secondMinimum(n, edges, time, change));
-  }
-
-  private static void test2() {
-    int n = 8;
-    int[][] edges = {
-      {1, 2}, {1, 3}, {2, 5}, {2, 4}, {3, 4}, {3, 5}, {3, 6}, {5, 7}, {6, 7}, {7, 8}
-    };
-    int time = 1;
-    int change = 100;
-    System.out.println(new Solution().secondMinimum(n, edges, time, change));
   }
 }

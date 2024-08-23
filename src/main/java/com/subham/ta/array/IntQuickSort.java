@@ -3,6 +3,12 @@ package com.subham.ta.array;
 import java.util.Arrays;
 
 public class IntQuickSort {
+  public static void main(String[] args) {
+    int[] nums = {5, 4, 3, 3, 3, 3, 2, 2, 2, 2, 1, 1, 1, 1, 5, 4, 4};
+    new Solution().sortArray(nums);
+    System.out.println(Arrays.toString(nums));
+  }
+
   static class Solution {
     void swap(int[] a, int f, int t) {
       int x = a[f];
@@ -42,11 +48,5 @@ public class IntQuickSort {
       quickSort(nums, 0, nums.length - 1);
       return nums;
     }
-  }
-
-  public static void main(String[] args) {
-    int[] nums = {5, 4, 3, 3, 3, 3, 2, 2, 2, 2, 1, 1, 1, 1, 5, 4, 4};
-    new Solution().sortArray(nums);
-    System.out.println(Arrays.toString(nums));
   }
 }
