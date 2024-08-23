@@ -1,6 +1,14 @@
 package com.subham.ta.array.matrix;
 
 public class SpiralIII {
+  public static void main(String[] args) {
+    int[][] matrixIII = new Solution().spiralMatrixIII(3, 3, 2, 2);
+
+    for (int i = 0; i < matrixIII.length; i++) {
+      System.out.println(matrixIII[i][0] + " - " + matrixIII[i][1]);
+    }
+  }
+
   static class Solution {
     public int[][] spiralMatrixIII(int rows, int cols, int rStart, int cStart) {
       final int N = rows * cols;
@@ -60,14 +68,6 @@ public class SpiralIII {
 
     boolean valid(int i, int j, int m, int n) {
       return (0 <= i && i < m) && (0 <= j && j < n);
-    }
-  }
-
-  public static void main(String[] args) {
-    int[][] matrixIII = new Solution().spiralMatrixIII(3, 3, 2, 2);
-
-    for (int i = 0; i < matrixIII.length; i++) {
-      System.out.println(matrixIII[i][0] + " - " + matrixIII[i][1]);
     }
   }
 }

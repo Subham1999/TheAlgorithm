@@ -1,14 +1,14 @@
-//package com.subham.ta.graph;
+// package com.subham.ta.graph;
 //
-//import static java.util.Collections.swap;
+// import static java.util.Collections.swap;
 //
-//import java.util.ArrayList;
-//import java.util.HashMap;
-//import java.util.List;
-//import java.util.Map;
-//import java.util.Set;
+// import java.util.ArrayList;
+// import java.util.HashMap;
+// import java.util.List;
+// import java.util.Map;
+// import java.util.Set;
 //
-//public class PrimsMST {
+// public class PrimsMST {
 //  private static final int INF = Integer.MAX_VALUE;
 //
 //  static class Graph {
@@ -134,4 +134,4 @@
 //
 //    return null;
 //  }
-//}
+// }

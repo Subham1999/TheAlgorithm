@@ -7,6 +7,30 @@ import java.util.stream.Stream;
 
 public class LongestSubstringLargeDatasize {
 
+  public static void main(String[] args) {
+    System.out.println(
+        new Solution()
+            .longestSubstringWithTwoDistinctChar(Stream.of('a', 'b', 'b', 'c', 'c', 'a', 'a')));
+
+    System.out.println(
+        new Solution().longestSubstringWithTwoDistinctChar(Stream.of('a', 'a', 'a')));
+
+    System.out.println(new Solution().longestSubstringWithTwoDistinctChar(Stream.of('a')));
+
+    System.out.println(new Solution().longestSubstringWithTwoDistinctChar(Stream.of()));
+
+    System.out.println(
+        new Solution()
+            .longestSubstringWithTwoDistinctChar(Stream.of('a', 'b', 'a', 'b', 'a', 'b')));
+
+    System.out.println(
+        new Solution()
+            .longestSubstringWithTwoDistinctChar(
+                Stream.of(
+                    'a', 'b', 'c', 'b', 'b', 'b', 'b', 'c', 'c', 'c', 'b', 'd', 'd', 'd', 'a', 'd',
+                    'a', 'c', 'b')));
+  }
+
   static class Solution {
 
     public int longestSubstringWithTwoDistinctChar(final Stream<Character> characterStream) {
@@ -73,29 +97,5 @@ public class LongestSubstringLargeDatasize {
     int length() {
       return windowEnd - windowStart + 1;
     }
-  }
-
-  public static void main(String[] args) {
-    System.out.println(
-        new Solution()
-            .longestSubstringWithTwoDistinctChar(Stream.of('a', 'b', 'b', 'c', 'c', 'a', 'a')));
-
-    System.out.println(
-        new Solution().longestSubstringWithTwoDistinctChar(Stream.of('a', 'a', 'a')));
-
-    System.out.println(new Solution().longestSubstringWithTwoDistinctChar(Stream.of('a')));
-
-    System.out.println(new Solution().longestSubstringWithTwoDistinctChar(Stream.of()));
-
-    System.out.println(
-        new Solution()
-            .longestSubstringWithTwoDistinctChar(Stream.of('a', 'b', 'a', 'b', 'a', 'b')));
-
-    System.out.println(
-        new Solution()
-            .longestSubstringWithTwoDistinctChar(
-                Stream.of(
-                    'a', 'b', 'c', 'b', 'b', 'b', 'b', 'c', 'c', 'c', 'b', 'd', 'd', 'd', 'a', 'd',
-                    'a', 'c', 'b')));
   }
 }

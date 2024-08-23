@@ -24,7 +24,7 @@ public class MaximumRectangle2DMatrix {
       stack.pop();
     }
 
-    //System.out.println(Arrays.toString(area));
+    // System.out.println(Arrays.toString(area));
 
     stack.clear();
 
@@ -42,7 +42,7 @@ public class MaximumRectangle2DMatrix {
       stack.pop();
     }
 
-    //System.out.println(Arrays.toString(area2));
+    // System.out.println(Arrays.toString(area2));
 
     int res = 0;
     for (int i = 0; i < heights.length; ++i) {

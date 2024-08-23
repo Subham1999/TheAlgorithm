@@ -4,6 +4,11 @@ import java.util.Arrays;
 import java.util.Stack;
 
 public class Leetcode1653 {
+  public static void main(String[] args) {
+    System.out.println(new Solution().approach2("bbaaaaabb"));
+    System.out.println(new Solution().approach2("aababbab"));
+  }
+
   static class Solution {
     public int minimumDeletions(String s) {
       int[] lis = new int[s.length()];
@@ -46,10 +51,5 @@ public class Leetcode1653 {
     int charVal(char c) {
       return c - 'a';
     }
-  }
-
-  public static void main(String[] args) {
-    System.out.println(new Solution().approach2("bbaaaaabb"));
-    System.out.println(new Solution().approach2("aababbab"));
   }
 }

@@ -3,6 +3,10 @@ package com.subham.ta.stackqueue;
 import java.util.Stack;
 
 public class EvaluateReversePolish {
+  public static void main(String[] args) {
+    System.out.println(new Solution().evalRPN(new String[] {"1", "2", "+", "3", "*", "4", "-"}));
+  }
+
   static class Solution {
     public int evalRPN(String[] tokens) {
       Stack<Integer> stack = new Stack<>();
@@ -50,9 +54,5 @@ public class EvaluateReversePolish {
 
       return stack.peek();
     }
-  }
-
-  public static void main(String[] args) {
-    System.out.println(new Solution().evalRPN(new String[] {"1", "2", "+", "3", "*", "4", "-"}));
   }
 }

@@ -6,6 +6,8 @@ import java.util.Map;
 import java.util.Objects;
 
 public class LeetCode2191 {
+  public static void main(String[] args) {}
+
   static class Solution {
     public int[] sortJumbled(int[] mapping, int[] nums) {
       Integer[] NUMS = new Integer[nums.length];
@@ -45,6 +47,4 @@ public class LeetCode2191 {
       return res;
     }
   }
-
-  public static void main(String[] args) {}
 }

@@ -1,13 +1,13 @@
-//package com.subham.ta.strings;
+// package com.subham.ta.strings;
 //
-//import java.util.ArrayDeque;
-//import java.util.ArrayList;
-//import java.util.Arrays;
-//import java.util.Collections;
-//import java.util.List;
-//import java.util.Queue;
+// import java.util.ArrayDeque;
+// import java.util.ArrayList;
+// import java.util.Arrays;
+// import java.util.Collections;
+// import java.util.List;
+// import java.util.Queue;
 //
-//public class LongestRepeatingCharacterReplacement {
+// public class LongestRepeatingCharacterReplacement {
 //  static class Solution {
 //    static class Sequence {
 //      int start;
@@ -77,4 +77,4 @@
 //  public static void main(String[] args) {
 //    System.out.println(new Solution().characterReplacement("AABAABBAA", 2));
 //  }
-//}
+// }

@@ -3,6 +3,12 @@ package com.subham.ta.array;
 import java.util.Arrays;
 
 public class LeetCode1636 {
+  public static void main(String[] args) {
+    System.out.println(Arrays.toString(new Solution().frequencySort(new int[] {1, 1, 2, 2, 2, 3})));
+    System.out.println(
+        Arrays.toString(new Solution().frequencySort(new int[] {-1, 1, -6, 4, 5, -6, 1, 4, 1})));
+  }
+
   static class Solution {
     public int[] frequencySort(int[] nums) {
       int[] a200 = new int[201];
@@ -24,11 +30,5 @@ public class LeetCode1636 {
       }
       return nums;
     }
-  }
-
-  public static void main(String[] args) {
-    System.out.println(Arrays.toString(new Solution().frequencySort(new int[] {1, 1, 2, 2, 2, 3})));
-    System.out.println(
-        Arrays.toString(new Solution().frequencySort(new int[] {-1, 1, -6, 4, 5, -6, 1, 4, 1})));
   }
 }
