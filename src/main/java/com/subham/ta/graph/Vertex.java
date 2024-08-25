@@ -3,23 +3,24 @@ package com.subham.ta.graph;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
+import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.Setter;
 
-@AllArgsConstructor
+@AllArgsConstructor(access = AccessLevel.PRIVATE)
 @Getter
 public class Vertex<K, V> {
-  @Setter private K key;
-  @Setter private V val;
+  private K key;
+  private V val;
   private Set<Vertex<K, V>> neighbors = new HashSet<>();
   private Set<Edge<K, V>> edges = new HashSet<>();
 
-  public Edge<K, V> addNewEdge(Vertex<K, V> other) {
-    Edge<K, V> newEdge = new Edge<>(this, other, 1D);
-    edges.add(newEdge);
-    neighbors.add(other);
-    return newEdge;
+  public static <K, V> Vertex<K, V> create(K key, V val) {
+    return new Vertex<>(key, val, new HashSet<>(), new HashSet<>());
+  }
+
+  public static <V> Vertex<V, V> create(V val) {
+    return create(val, val);
   }
 
   @Override
@@ -32,5 +33,10 @@ public class Vertex<K, V> {
   @Override
   public int hashCode() {
     return Objects.hash(getKey());
+  }
+
+  @Override
+  public String toString() {
+    return "V[" + val + ']';
   }
 }
