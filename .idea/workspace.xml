@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="reformatting">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/backtracking/CombinationSumI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/backtracking/PermutationI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/subham/ta/backtracking/SubsetsII.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "formatting__23aug2024",
+    "git-widget-placeholder": "new__main",
     "onboarding.tips.debug.path": "/Users/subhamsantra/Projects/Interview/TheAlgorithm/src/main/java/com/subham/ta/Main.java",
     "settings.editor.selected.configurable": "fileTemplates"
   }
@@ -91,26 +88,13 @@
       <recent name="com.subham.ta.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PermutationI">
+  <component name="RunManager" selected="Application.SubsetsII">
     <configuration name="CombinationSumI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.subham.ta.backtracking.CombinationSumI" />
       <module name="TheAlgorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.subham.ta.backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CoursesII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.subham.ta.graph.CoursesII" />
-      <module name="TheAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.subham.ta.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,6 +128,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubsetsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.subham.ta.backtracking.SubsetsII" />
+      <module name="TheAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.subham.ta.backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WordLadder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.subham.ta.graph.WordLadder" />
       <module name="TheAlgorithm" />
@@ -159,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubsetsII" />
         <item itemvalue="Application.PermutationI" />
         <item itemvalue="Application.CombinationSumI" />
         <item itemvalue="Application.Subsets" />
         <item itemvalue="Application.WordLadder" />
-        <item itemvalue="Application.CoursesII" />
       </list>
     </recent_temporary>
   </component>
