@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CombinationSumI {
+  public static void main(String[] args) {
+    System.out.println(new CombinationSumI().combinationSum(new int[] {2, 3, 6, 7}, 7));
+  }
+
   public List<List<Integer>> combinationSum(int[] candidates, int target) {
     List<List<Integer>> result = new ArrayList<>();
     List<Integer> runningSet = new ArrayList<>();
@@ -29,9 +33,5 @@ public class CombinationSumI {
 
     // exclude
     combinationSum(arr, index - 1, target, result, currentSet);
-  }
-
-  public static void main(String[] args) {
-    System.out.println(new CombinationSumI().combinationSum(new int[] {2, 3, 6, 7}, 7));
   }
 }

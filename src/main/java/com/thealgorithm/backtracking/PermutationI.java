@@ -10,6 +10,13 @@ import java.util.stream.Collectors;
  */
 public class PermutationI {
 
+  public static void main(String[] args) {
+    System.out.println(new PermutationI().permute(new int[] {0}));
+    System.out.println(new PermutationI().permute(new int[] {1}));
+    System.out.println(new PermutationI().permute(new int[] {1, 2}));
+    System.out.println(new PermutationI().permute(new int[] {1, 2, 3}));
+  }
+
   public List<List<Integer>> permute(int[] nums) {
     List<List<Integer>> result = new ArrayList<>();
     permute(nums, 0, result);
@@ -33,12 +40,5 @@ public class PermutationI {
     int x = arr[f];
     arr[f] = arr[t];
     arr[t] = x;
-  }
-
-  public static void main(String[] args) {
-    System.out.println(new PermutationI().permute(new int[] {0}));
-    System.out.println(new PermutationI().permute(new int[] {1}));
-    System.out.println(new PermutationI().permute(new int[] {1, 2}));
-    System.out.println(new PermutationI().permute(new int[] {1, 2, 3}));
   }
 }

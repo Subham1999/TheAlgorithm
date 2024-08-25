@@ -10,100 +10,6 @@ import java.util.Queue;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class WordLadder {
-  static class Solution {
-    public int ladderLength(String start, String end, List<String> word) {
-      long startTime = System.currentTimeMillis();
-      int n = word.size();
-      Map<String, List<String>> graph = new HashMap<>();
-
-      word.add(start);
-      for (int i = 0; i < word.size(); ++i) {
-        for (int j = i + 1; j < word.size(); ++j) {
-          if (diff(word.get(i), word.get(j)) == 1) {
-            graph.putIfAbsent(word.get(i), new ArrayList<>());
-            graph.putIfAbsent(word.get(j), new ArrayList<>());
-
-            graph.get(word.get(i)).add(word.get(j));
-            graph.get(word.get(j)).add(word.get(i));
-          }
-        }
-      }
-
-      // System.out.println(graph);
-      AtomicInteger minPath = new AtomicInteger(Integer.MAX_VALUE);
-//            dfs(graph, start, end, "", new HashMap<>(), 0, minPath);
-      bfs(graph, start, end, minPath);
-      System.out.println("Time taken : " + (System.currentTimeMillis() - startTime));
-      return minPath.get() == Integer.MAX_VALUE ? 0 : minPath.get() + 1;
-    }
-
-    void dfs(
-        Map<String, List<String>> graph,
-        String word,
-        String end,
-        String parent,
-        Map<String, Integer> visited,
-        int pathCount,
-        AtomicInteger minPath) {
-      // System.out.println(word + " " + end);
-      if (word.equals(end)) {
-        minPath.set(Math.min(minPath.get(), pathCount));
-        return;
-      }
-
-      if (visited.containsKey(word) && pathCount >= visited.get(word)) {
-        return;
-      }
-
-      visited.put(word, pathCount);
-      for (String next : graph.getOrDefault(word, Collections.emptyList())) {
-        if (next.equals(parent)) {
-          continue;
-        }
-        dfs(graph, next, end, word, visited, pathCount + 1, minPath);
-      }
-    }
-
-    void bfs(Map<String, List<String>> graph, String word, String end, AtomicInteger minPath) {
-      Queue<String> queue = new ArrayDeque<>();
-      queue.add(word);
-      int count = 1;
-      Map<String, Integer> time = new HashMap<>();
-      while (!queue.isEmpty()) {
-        Queue<String> queue2 = new ArrayDeque<>();
-        while (!queue.isEmpty()) {
-          String val = queue.poll();
-          time.put(val, count);
-          if (val.equals(end)) {
-            minPath.set(Math.min(minPath.get(), count));
-            continue;
-          }
-          for (String next : graph.getOrDefault(val, Collections.emptyList())) {
-            if (time.containsKey(next) && time.get(next) < count) {
-              continue;
-            }
-            queue2.add(next);
-          }
-        }
-        ++count;
-        queue = queue2;
-      }
-    }
-
-    int diff(String a, String b) {
-      int c = 0;
-      for (int i = 0; i < a.length(); ++i) {
-        if (a.charAt(i) != b.charAt(i)) {
-          ++c;
-          if (c == 2) {
-            return 2;
-          }
-        }
-      }
-      return c;
-    }
-  }
-
   public static void main(String[] args) {
     //    System.out.println(
     //        new Solution()
@@ -688,5 +594,99 @@ public class WordLadder {
                         "seine", "spool", "miens", "yummy", "grade", "proxy", "hopes", "girth",
                         "deter", "dowry", "aorta", "paean", "corms", "giant", "shank", "where",
                         "means", "years", "vegan", "derek", "tales"))));
+  }
+
+  static class Solution {
+    public int ladderLength(String start, String end, List<String> word) {
+      long startTime = System.currentTimeMillis();
+      int n = word.size();
+      Map<String, List<String>> graph = new HashMap<>();
+
+      word.add(start);
+      for (int i = 0; i < word.size(); ++i) {
+        for (int j = i + 1; j < word.size(); ++j) {
+          if (diff(word.get(i), word.get(j)) == 1) {
+            graph.putIfAbsent(word.get(i), new ArrayList<>());
+            graph.putIfAbsent(word.get(j), new ArrayList<>());
+
+            graph.get(word.get(i)).add(word.get(j));
+            graph.get(word.get(j)).add(word.get(i));
+          }
+        }
+      }
+
+      // System.out.println(graph);
+      AtomicInteger minPath = new AtomicInteger(Integer.MAX_VALUE);
+//            dfs(graph, start, end, "", new HashMap<>(), 0, minPath);
+      bfs(graph, start, end, minPath);
+      System.out.println("Time taken : " + (System.currentTimeMillis() - startTime));
+      return minPath.get() == Integer.MAX_VALUE ? 0 : minPath.get() + 1;
+    }
+
+    void dfs(
+        Map<String, List<String>> graph,
+        String word,
+        String end,
+        String parent,
+        Map<String, Integer> visited,
+        int pathCount,
+        AtomicInteger minPath) {
+      // System.out.println(word + " " + end);
+      if (word.equals(end)) {
+        minPath.set(Math.min(minPath.get(), pathCount));
+        return;
+      }
+
+      if (visited.containsKey(word) && pathCount >= visited.get(word)) {
+        return;
+      }
+
+      visited.put(word, pathCount);
+      for (String next : graph.getOrDefault(word, Collections.emptyList())) {
+        if (next.equals(parent)) {
+          continue;
+        }
+        dfs(graph, next, end, word, visited, pathCount + 1, minPath);
+      }
+    }
+
+    void bfs(Map<String, List<String>> graph, String word, String end, AtomicInteger minPath) {
+      Queue<String> queue = new ArrayDeque<>();
+      queue.add(word);
+      int count = 1;
+      Map<String, Integer> time = new HashMap<>();
+      while (!queue.isEmpty()) {
+        Queue<String> queue2 = new ArrayDeque<>();
+        while (!queue.isEmpty()) {
+          String val = queue.poll();
+          time.put(val, count);
+          if (val.equals(end)) {
+            minPath.set(Math.min(minPath.get(), count));
+            continue;
+          }
+          for (String next : graph.getOrDefault(val, Collections.emptyList())) {
+            if (time.containsKey(next) && time.get(next) < count) {
+              continue;
+            }
+            queue2.add(next);
+          }
+        }
+        ++count;
+        queue = queue2;
+      }
+    }
+
+    int diff(String a, String b) {
+      int c = 0;
+      for (int i = 0; i < a.length(); ++i) {
+        if (a.charAt(i) != b.charAt(i)) {
+          ++c;
+          if (c == 2) {
+            return 2;
+          }
+        }
+      }
+      return c;
+    }
   }
 }

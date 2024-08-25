@@ -7,6 +7,11 @@ import java.util.List;
 import java.util.Map;
 
 public class CoursesII {
+  public static void main(String[] args) {
+    System.out.println(
+        Arrays.toString(new Solution().findOrder(4, new int[][] {{1, 0}, {2, 0}, {3, 1}, {3, 2}})));
+  }
+
   static class Solution {
     private boolean cycleExists = false;
     private List<Integer> orderedList;
@@ -65,10 +70,5 @@ public class CoursesII {
       visited[node] = 2;
       orderedList.add(node);
     }
-  }
-
-  public static void main(String[] args) {
-    System.out.println(
-        Arrays.toString(new Solution().findOrder(4, new int[][] {{1, 0}, {2, 0}, {3, 1}, {3, 2}})));
   }
 }

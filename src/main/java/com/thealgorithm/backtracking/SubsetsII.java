@@ -10,6 +10,10 @@ import java.util.Set;
  */
 public class SubsetsII {
 
+  public static void main(String[] args) {
+    System.out.println(new SubsetsII().subsetsWithDup(new int[] {1, 2, 2, 1, 1, 1}));
+  }
+
   public List<List<Integer>> subsetsWithDup(int[] nums) {
     int len = nums.length;
     int powerLen = 1 << len;
@@ -29,9 +33,5 @@ public class SubsetsII {
       result.add(set);
     }
     return new ArrayList<>(result);
-  }
-
-  public static void main(String[] args) {
-    System.out.println(new SubsetsII().subsetsWithDup(new int[] {1, 2, 2, 1, 1, 1}));
   }
 }
