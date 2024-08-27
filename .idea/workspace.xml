@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="Nothing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thealgorithm/backtracking/CombinationSumII.java" afterDir="false" />
+    <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="CombinationSumII.java added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thealgorithm/backtracking/WordSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,7 @@
       <recent name="com.subham.ta.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CombinationSumII">
+  <component name="RunManager" selected="Application.WordSearch">
     <configuration name="CombinationSumI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.subham.ta.backtracking.CombinationSumI" />
       <module name="TheAlgorithm" />
@@ -130,19 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.subham.ta.backtracking.Subsets" />
-      <module name="TheAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.subham.ta.backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SubsetsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.subham.ta.backtracking.SubsetsII" />
       <module name="TheAlgorithm" />
@@ -156,13 +142,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.backtracking.WordSearch" />
+      <module name="TheAlgorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thealgorithm.backtracking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordSearch" />
         <item itemvalue="Application.CombinationSumII" />
         <item itemvalue="Application.SubsetsII" />
         <item itemvalue="Application.PermutationI" />
         <item itemvalue="Application.CombinationSumI" />
-        <item itemvalue="Application.Subsets" />
       </list>
     </recent_temporary>
   </component>
@@ -359,7 +358,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724607617792</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="CombinationSumII.java added">
+      <option name="closed" value="true" />
+      <created>1724738320689</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1724738320689</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -386,7 +393,8 @@
     <MESSAGE value="reformatting" />
     <MESSAGE value="backtracking started" />
     <MESSAGE value="Nothing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nothing" />
+    <MESSAGE value="CombinationSumII.java added" />
+    <option name="LAST_COMMIT_MESSAGE" value="CombinationSumII.java added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
