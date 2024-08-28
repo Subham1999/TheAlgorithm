@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="WordSearch.java added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thealgorithm/backtracking/PalindromePartitioning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thealgorithm/backtracking/PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealgorithm/backtracking/PalindromePartitioning.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
