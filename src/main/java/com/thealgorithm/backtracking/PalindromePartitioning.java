@@ -7,7 +7,7 @@ import java.util.List;
  * @author: Subham Santra
  * @implNote
  *     <p>This is a pure back-tracking approach This problem can be solved using dynamic programming
- *     also, I will add DP code in DP section
+ *     also, I will add DP code in DP section</p>
  */
 public class PalindromePartitioning {
 
