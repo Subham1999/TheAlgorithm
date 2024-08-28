@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="CombinationSumII.java added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thealgorithm/backtracking/WordSearch.java" afterDir="false" />
+    <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="WordSearch.java added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thealgorithm/backtracking/PalindromePartitioning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,29 +73,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;back__tracking&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/subhamsantra/Projects/Interview/TheAlgorithm/src/main/java/com/subham/ta/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "back__tracking",
+    "onboarding.tips.debug.path": "/Users/subhamsantra/Projects/Interview/TheAlgorithm/src/main/java/com/subham/ta/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.subham.ta.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WordSearch">
-    <configuration name="CombinationSumI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.subham.ta.backtracking.CombinationSumI" />
+  <component name="RunManager" selected="Application.PalindromePartitioning">
+    <configuration name="CombinationSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.backtracking.CombinationSumII" />
       <module name="TheAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.subham.ta.backtracking.*" />
+          <option name="PATTERN" value="com.thealgorithm.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CombinationSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.backtracking.CombinationSumII" />
+    <configuration name="PalindromePartitioning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.backtracking.PalindromePartitioning" />
       <module name="TheAlgorithm" />
       <extension name="coverage">
         <pattern>
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromePartitioning" />
         <item itemvalue="Application.WordSearch" />
         <item itemvalue="Application.CombinationSumII" />
         <item itemvalue="Application.SubsetsII" />
         <item itemvalue="Application.PermutationI" />
-        <item itemvalue="Application.CombinationSumI" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +366,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724738320689</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="WordSearch.java added">
+      <option name="closed" value="true" />
+      <created>1724742612046</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1724742612046</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -394,7 +402,8 @@
     <MESSAGE value="backtracking started" />
     <MESSAGE value="Nothing" />
     <MESSAGE value="CombinationSumII.java added" />
-    <option name="LAST_COMMIT_MESSAGE" value="CombinationSumII.java added" />
+    <MESSAGE value="WordSearch.java added" />
+    <option name="LAST_COMMIT_MESSAGE" value="WordSearch.java added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
