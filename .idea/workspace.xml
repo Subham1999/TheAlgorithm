@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="WordSearch.java added">
+    <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="modified the doc">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thealgorithm/miscellaneous/MostStonesRemovedSameRowCol.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thealgorithm/backtracking/PalindromePartitioning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealgorithm/backtracking/PalindromePartitioning.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,7 @@
       <recent name="com.subham.ta.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PalindromePartitioning">
+  <component name="RunManager" selected="Application.MostStonesRemovedSameRowCol">
     <configuration name="CombinationSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thealgorithm.backtracking.CombinationSumII" />
       <module name="TheAlgorithm" />
@@ -103,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromePartitioning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.backtracking.PalindromePartitioning" />
+    <configuration name="MostStonesRemovedSameRowCol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.miscellaneous.MostStonesRemovedSameRowCol" />
       <module name="TheAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thealgorithm.backtracking.*" />
+          <option name="PATTERN" value="com.thealgorithm.miscellaneous.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.subham.ta.backtracking.PermutationI" />
+    <configuration name="PalindromePartitioning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.backtracking.PalindromePartitioning" />
       <module name="TheAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.subham.ta.backtracking.*" />
+          <option name="PATTERN" value="com.thealgorithm.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MostStonesRemovedSameRowCol" />
         <item itemvalue="Application.PalindromePartitioning" />
         <item itemvalue="Application.WordSearch" />
         <item itemvalue="Application.CombinationSumII" />
         <item itemvalue="Application.SubsetsII" />
-        <item itemvalue="Application.PermutationI" />
       </list>
     </recent_temporary>
   </component>
@@ -374,7 +374,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724742612046</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="modified the doc">
+      <option name="closed" value="true" />
+      <created>1724869859287</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1724869859287</updated>
+    </task>
+    <task id="LOCAL-00027" summary="modified the doc">
+      <option name="closed" value="true" />
+      <created>1724869912287</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1724869912287</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -403,7 +419,8 @@
     <MESSAGE value="Nothing" />
     <MESSAGE value="CombinationSumII.java added" />
     <MESSAGE value="WordSearch.java added" />
-    <option name="LAST_COMMIT_MESSAGE" value="WordSearch.java added" />
+    <MESSAGE value="modified the doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified the doc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -490,6 +507,12 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/graph/WordLadder.java</url>
           <line>71</line>
           <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="vertex.row == 3 &amp;&amp; vertex.col == 4" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/miscellaneous/MostStonesRemovedSameRowCol.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/graph/CoursesII.java</url>
