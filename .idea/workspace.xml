@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="modified the doc">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thealgorithm/miscellaneous/MostStonesRemovedSameRowCol.java" afterDir="false" />
+    <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="GRAPH">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thealgorithm/graph/ShortestCycleInGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +89,7 @@
       <recent name="com.subham.ta.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MostStonesRemovedSameRowCol">
+  <component name="RunManager" selected="Application.ShortestCycleInGraph">
     <configuration name="CombinationSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thealgorithm.backtracking.CombinationSumII" />
       <module name="TheAlgorithm" />
@@ -104,11 +104,11 @@
       </method>
     </configuration>
     <configuration name="MostStonesRemovedSameRowCol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.miscellaneous.MostStonesRemovedSameRowCol" />
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.graph.MostStonesRemovedSameRowCol" />
       <module name="TheAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thealgorithm.miscellaneous.*" />
+          <option name="PATTERN" value="com.thealgorithm.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubsetsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.subham.ta.backtracking.SubsetsII" />
+    <configuration name="ShortestCycleInGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.graph.ShortestCycleInGraph" />
       <module name="TheAlgorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.subham.ta.backtracking.*" />
+          <option name="PATTERN" value="com.thealgorithm.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShortestCycleInGraph" />
         <item itemvalue="Application.MostStonesRemovedSameRowCol" />
         <item itemvalue="Application.PalindromePartitioning" />
         <item itemvalue="Application.WordSearch" />
         <item itemvalue="Application.CombinationSumII" />
-        <item itemvalue="Application.SubsetsII" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +390,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724869912287</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="GRAPH">
+      <option name="closed" value="true" />
+      <created>1724954143566</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1724954143566</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -420,7 +428,8 @@
     <MESSAGE value="CombinationSumII.java added" />
     <MESSAGE value="WordSearch.java added" />
     <MESSAGE value="modified the doc" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified the doc" />
+    <MESSAGE value="GRAPH" />
+    <option name="LAST_COMMIT_MESSAGE" value="GRAPH" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -507,12 +516,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/graph/WordLadder.java</url>
           <line>71</line>
           <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <condition expression="vertex.row == 3 &amp;&amp; vertex.col == 4" language="JAVA" />
-          <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/miscellaneous/MostStonesRemovedSameRowCol.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/graph/CoursesII.java</url>
