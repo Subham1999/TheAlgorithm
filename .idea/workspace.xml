@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="GRAPH">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thealgorithm/graph/ShortestCycleInGraph.java" afterDir="false" />
+    <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="LC GRAPH HARD ShortestCycleInGraph">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thealgorithm/graph/CollectCoinsInATree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thealgorithm/lld/ParkingLotLLD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +87,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.thealgorithm.lld" />
       <recent name="com.subham.ta.graph" />
     </key>
   </component>
@@ -398,7 +400,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724954143566</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="LC GRAPH HARD ShortestCycleInGraph">
+      <option name="closed" value="true" />
+      <created>1725033464461</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1725033464461</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -429,7 +439,8 @@
     <MESSAGE value="WordSearch.java added" />
     <MESSAGE value="modified the doc" />
     <MESSAGE value="GRAPH" />
-    <option name="LAST_COMMIT_MESSAGE" value="GRAPH" />
+    <MESSAGE value="LC GRAPH HARD ShortestCycleInGraph" />
+    <option name="LAST_COMMIT_MESSAGE" value="LC GRAPH HARD ShortestCycleInGraph" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
