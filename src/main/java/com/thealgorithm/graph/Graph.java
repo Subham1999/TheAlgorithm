@@ -32,4 +32,10 @@ public class Graph<K, V> {
       }
     }
   }
+
+  void clear() {
+    vertexSet.clear();
+    edgeSet.clear();
+    isDirected = false;
+  }
 }

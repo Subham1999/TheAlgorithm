@@ -105,7 +105,9 @@ class Level {
 class ParkingLot {
   List<Level> parkingLevels;
 
-  void park(Vehicle vehicle) {}
+  void park(final Vehicle vehicle) {
+
+  }
 }
 
 public class ParkingLotLLD {}
