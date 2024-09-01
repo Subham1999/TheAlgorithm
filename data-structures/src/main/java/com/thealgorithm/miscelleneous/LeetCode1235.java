@@ -1,4 +1,4 @@
-package com.thealgorithm.dp.miscelleneous;
+package com.thealgorithm.miscelleneous;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package com.thealgorithm.dp.miscelleneous;
+package com.thealgorithm.miscelleneous;
 
 /**
  * @see <a
