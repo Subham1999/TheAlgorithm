@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="MAANG - top">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thealgorithm/miscelleneous/GenerateParenthesis.java" afterDir="false" />
+    <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="multimodule">
+      <change afterPath="$PROJECT_DIR$/low-level-design/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/caching/CachingLocalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/caching/DataExpiredException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/caching/DataNotPresentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/caching/InMemoryKeyValStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thealgorithm/dp/miscelleneous/LeetCode1155.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealgorithm/miscelleneous/LeetCode1155.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thealgorithm/dp/miscelleneous/LeetCode1235.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealgorithm/miscelleneous/LeetCode1235.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thealgorithm/dp/miscelleneous/LeetCode1335.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealgorithm/miscelleneous/LeetCode1335.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thealgorithm/dp/miscelleneous/LeetCode446.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thealgorithm/miscelleneous/LeetCode446.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,24 +80,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;back__tracking&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/subhamsantra/Projects/Interview/TheAlgorithm/src/main/java/com/subham/ta/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "back__tracking",
+    "jdk.selected.JAVA_MODULE": "openjdk-21 (3)",
+    "onboarding.tips.debug.path": "/Users/subhamsantra/Projects/Interview/TheAlgorithm/low-level-design/src/main/java/com/subham/tbpp/Main.java",
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.thealgorithm.caching" />
       <recent name="com.thealgorithm.lld" />
       <recent name="com.subham.ta.graph" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data-structures" />
+      <recent name="$PROJECT_DIR$/data-structures/src/main/java" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode1024Hard">
+  <component name="RunManager" selected="Application.CachingLocalTest">
+    <configuration name="CachingLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.caching.CachingLocalTest" />
+      <module name="low-level-design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thealgorithm.caching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GenerateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thealgorithm.miscelleneous.GenerateParenthesis" />
       <module name="TheAlgorithm" />
@@ -147,26 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestCycleInGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.graph.ShortestCycleInGraph" />
-      <module name="TheAlgorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thealgorithm.graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CachingLocalTest" />
         <item itemvalue="Application.LeetCode1024Hard" />
         <item itemvalue="Application.GenerateParenthesis" />
         <item itemvalue="Application.LargestSubMatrixWithRearrangements" />
         <item itemvalue="Application.PrimsMinimumSpanningTree" />
-        <item itemvalue="Application.ShortestCycleInGraph" />
       </list>
     </recent_temporary>
   </component>
@@ -435,7 +444,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725129705304</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="multimodule">
+      <option name="closed" value="true" />
+      <created>1725215225004</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1725215225004</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -470,13 +487,14 @@
     <MESSAGE value="LLD" />
     <MESSAGE value="PRIMS MST added" />
     <MESSAGE value="MAANG - top" />
-    <option name="LAST_COMMIT_MESSAGE" value="MAANG - top" />
+    <MESSAGE value="multimodule" />
+    <option name="LAST_COMMIT_MESSAGE" value="multimodule" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/commons/DesignAFoodRatingSystems.java</url>
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/commons/DesignAFoodRatingSystems.java</url>
           <line>40</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -486,22 +504,22 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/strings/LeetCode1624.java</url>
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/strings/LeetCode1624.java</url>
           <line>22</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/commons/QuickSelect.java</url>
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/commons/QuickSelect.java</url>
           <line>27</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/array/LeetCode2392.java</url>
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/array/LeetCode2392.java</url>
           <line>61</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/array/LeetCode2392.java</url>
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/array/LeetCode2392.java</url>
           <line>71</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
@@ -509,57 +527,67 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/array/LeetCode2392.java</url>
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/array/LeetCode2392.java</url>
           <line>55</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/array/LeetCode1024Hard.java</url>
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/array/LeetCode1024Hard.java</url>
           <line>38</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/array/IntQuickSort.java</url>
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/array/IntQuickSort.java</url>
           <line>19</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/graph/LeetCode2045.java</url>
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/graph/LeetCode2045.java</url>
           <line>15</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/array/matrix/JumpOnMatrix.java</url>
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/array/matrix/JumpOnMatrix.java</url>
           <line>64</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/array/matrix/SpiralIII.java</url>
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/array/matrix/SpiralIII.java</url>
           <line>23</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/stacks/CarFleet.java</url>
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/stacks/CarFleet.java</url>
           <line>30</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/strings/LongestSubstringLargeDatasize.java</url>
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/strings/LongestSubstringLargeDatasize.java</url>
           <line>47</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/stacks/LargestRectangleHistorgram.java</url>
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/stacks/LargestRectangleHistorgram.java</url>
           <line>15</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/graph/WordLadder.java</url>
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/graph/WordLadder.java</url>
           <line>71</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/subham/tbpp/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/graph/CoursesII.java</url>
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/graph/CoursesII.java</url>
           <line>44</line>
           <properties class="com.thealgorithm.graph.CoursesII.Solution">
             <option name="EMULATED" value="true" />
@@ -568,9 +596,9 @@
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/thealgorithm/backtracking/CombinationSumII.java</url>
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/backtracking/CombinationSumII.java</url>
           <line>20</line>
-          <properties class="com.thealgorithm.backtracking.CombinationSumII.Solution" method="helper">
+          <properties class="com.thealgorithm.backtracking.CombinationSumII.Solution">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

@@ -10,5 +10,5 @@
     </parent>
 
     <groupId>com.thealgorithm</groupId>
-    <artifactId>data-structures</artifactId>
+    <artifactId>low-level-design</artifactId>
 </project>
