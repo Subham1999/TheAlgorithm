@@ -7,6 +7,11 @@
     <groupId>com.thealgorithm</groupId>
     <artifactId>TheAlgorithm</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>data-structures</module>
+        <module>low-level-design</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
