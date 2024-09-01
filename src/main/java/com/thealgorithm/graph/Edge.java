@@ -16,6 +16,10 @@ public class Edge<K, V> {
     return new Edge<>(Vertex.create(v1), Vertex.create(v2), 0D);
   }
 
+  public static <V> Edge<V, V> createEdge(V v1, V v2, double weight) {
+    return new Edge<>(Vertex.create(v1), Vertex.create(v2), weight);
+  }
+
   @Override
   public boolean equals(Object o) {
     if (this == o) return true;
@@ -28,5 +32,10 @@ public class Edge<K, V> {
   @Override
   public int hashCode() {
     return Objects.hash(getVertex1(), getVertex2(), getWeight());
+  }
+
+  @Override
+  public String toString() {
+    return "<" + vertex1.getKey() + "--" + vertex2.getKey() + "|" + weight + '>';
   }
 }
