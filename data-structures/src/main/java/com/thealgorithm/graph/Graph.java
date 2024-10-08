@@ -38,4 +38,8 @@ public class Graph<K, V> {
     edgeSet.clear();
     isDirected = false;
   }
+
+  Vertex<K, V> getVertex(K key) {
+    return vertexSet.stream().filter(v -> v.getKey().equals(key)).findFirst().get();
+  }
 }
