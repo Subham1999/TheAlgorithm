@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="ADDED">
-      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/miscelleneous/TimeTakenToCrossTheDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/binsearch/FindMinimumInRotatedSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/graph/RegionCutBySlashes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/lld/Twitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/strings/ReorganizeStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/strings/StringWithoutAAAorBBB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,9 +105,35 @@
       <recent name="$PROJECT_DIR$/data-structures/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TimeTakenToCrossTheDoor">
-    <configuration name="BasicCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.strings.BasicCalculator" />
+  <component name="RunManager" selected="Application.RegionCutBySlashes">
+    <configuration name="FindMinimumInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.binsearch.FindMinimumInRotatedSortedArray" />
+      <module name="data-structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thealgorithm.binsearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegionCutBySlashes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.graph.RegionCutBySlashes" />
+      <module name="data-structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thealgorithm.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReorganizeStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.strings.ReorganizeStrings" />
       <module name="data-structures" />
       <extension name="coverage">
         <pattern>
@@ -115,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatchsticksToSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.dp.MatchsticksToSquare" />
+    <configuration name="StringWithoutAAAorBBB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.strings.StringWithoutAAAorBBB" />
       <module name="data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thealgorithm.dp.*" />
+          <option name="PATTERN" value="com.thealgorithm.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,8 +158,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SnapshotArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.lld.SnapshotArray" />
+    <configuration name="Twitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.lld.Twitter" />
       <module name="data-structures" />
       <extension name="coverage">
         <pattern>
@@ -141,39 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfPrefixScores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.strings.SumOfPrefixScores" />
-      <module name="data-structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thealgorithm.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeTakenToCrossTheDoor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.miscelleneous.TimeTakenToCrossTheDoor" />
-      <module name="data-structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thealgorithm.miscelleneous.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TimeTakenToCrossTheDoor" />
-        <item itemvalue="Application.SnapshotArray" />
-        <item itemvalue="Application.SumOfPrefixScores" />
-        <item itemvalue="Application.MatchsticksToSquare" />
-        <item itemvalue="Application.BasicCalculator" />
+        <item itemvalue="Application.RegionCutBySlashes" />
+        <item itemvalue="Application.StringWithoutAAAorBBB" />
+        <item itemvalue="Application.ReorganizeStrings" />
+        <item itemvalue="Application.FindMinimumInRotatedSortedArray" />
+        <item itemvalue="Application.Twitter" />
       </list>
     </recent_temporary>
   </component>
@@ -490,7 +494,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727499290118</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="ADDED">
+      <option name="closed" value="true" />
+      <created>1728061074126</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1728061074126</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -666,6 +678,21 @@
           <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/strings/SumOfPrefixScores.java</url>
           <line>108</line>
           <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/lld/Twitter.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/strings/ReorganizeStrings.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/graph/RegionCutBySlashes.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/graph/CoursesII.java</url>
