@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="ADDED">
-      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/binsearch/FindMinimumInRotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/graph/RegionCutBySlashes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/lld/Twitter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/strings/ReorganizeStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/strings/StringWithoutAAAorBBB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/array/SmallestRangeCoveringElementsFromKLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/lld/caching/AbstractCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/lld/caching/CacheEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/lld/caching/ICache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/lld/caching/ICacheEvictionPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/lld/caching/LeastRecentlyUsedCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/resources/graph/sample.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/observer/AbstractObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/observer/AbstractObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/observer/example/FacebookWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/observer/example/TelevisionWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/observer/example/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/observer/example/WeatherUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/observer/example/WeatherUpdateChannel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/lld/DatabaseLocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/lld/DatabaseLocks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -105,61 +116,9 @@
       <recent name="$PROJECT_DIR$/data-structures/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RegionCutBySlashes">
-    <configuration name="FindMinimumInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.binsearch.FindMinimumInRotatedSortedArray" />
-      <module name="data-structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thealgorithm.binsearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RegionCutBySlashes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.graph.RegionCutBySlashes" />
-      <module name="data-structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thealgorithm.graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReorganizeStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.strings.ReorganizeStrings" />
-      <module name="data-structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thealgorithm.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringWithoutAAAorBBB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.strings.StringWithoutAAAorBBB" />
-      <module name="data-structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thealgorithm.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Twitter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.lld.Twitter" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="DatabaseLocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.lld.DatabaseLocks" />
       <module name="data-structures" />
       <extension name="coverage">
         <pattern>
@@ -171,13 +130,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EdmondKarpAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.graph.EdmondKarpAlgorithm" />
+      <module name="data-structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thealgorithm.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeInterval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.interval.MergeInterval" />
+      <module name="data-structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thealgorithm.interval.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrangePrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.dp.StrangePrinter" />
+      <module name="data-structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thealgorithm.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.observer.example.Test" />
+      <module name="low-level-design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thealgorithm.observer.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RegionCutBySlashes" />
-        <item itemvalue="Application.StringWithoutAAAorBBB" />
-        <item itemvalue="Application.ReorganizeStrings" />
-        <item itemvalue="Application.FindMinimumInRotatedSortedArray" />
-        <item itemvalue="Application.Twitter" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.DatabaseLocks" />
+        <item itemvalue="Application.MergeInterval" />
+        <item itemvalue="Application.EdmondKarpAlgorithm" />
+        <item itemvalue="Application.StrangePrinter" />
       </list>
     </recent_temporary>
   </component>
@@ -502,7 +513,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728061074126</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="ADDED">
+      <option name="closed" value="true" />
+      <created>1728416974021</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1728416974021</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -688,11 +707,6 @@
           <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/strings/ReorganizeStrings.java</url>
           <line>39</line>
           <option name="timeStamp" value="104" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/graph/RegionCutBySlashes.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/graph/CoursesII.java</url>
