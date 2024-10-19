@@ -4,23 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="ADDED">
-      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/array/SmallestRangeCoveringElementsFromKLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/lld/caching/AbstractCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/lld/caching/CacheEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/lld/caching/ICache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/lld/caching/ICacheEvictionPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/lld/caching/LeastRecentlyUsedCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structures/src/main/resources/graph/sample.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/observer/AbstractObservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/observer/AbstractObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/observer/example/FacebookWatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/observer/example/TelevisionWatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/observer/example/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/observer/example/WeatherUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/observer/example/WeatherUpdateChannel.java" afterDir="false" />
+    <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="LLD started">
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/decorator/BasePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/decorator/ExtraCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/decorator/ExtraSauce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/decorator/FarmHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/decorator/Margherita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/decorator/Mashroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/decorator/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/decorator/ToppingDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/decorator/VegDelight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/lld/DatabaseLocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/lld/DatabaseLocks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +110,7 @@
       <recent name="$PROJECT_DIR$/data-structures/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.com.thealgorithm.decorator.Test">
     <configuration name="DatabaseLocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thealgorithm.lld.DatabaseLocks" />
       <module name="data-structures" />
@@ -156,19 +150,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrangePrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.dp.StrangePrinter" />
-      <module name="data-structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thealgorithm.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thealgorithm.observer.example.Test" />
       <module name="low-level-design" />
@@ -182,13 +163,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.thealgorithm.decorator.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.decorator.Test" />
+      <module name="low-level-design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thealgorithm.decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.thealgorithm.decorator.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.DatabaseLocks" />
         <item itemvalue="Application.MergeInterval" />
         <item itemvalue="Application.EdmondKarpAlgorithm" />
-        <item itemvalue="Application.StrangePrinter" />
       </list>
     </recent_temporary>
   </component>
@@ -521,7 +515,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728416974021</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="LLD started">
+      <option name="closed" value="true" />
+      <created>1729345170365</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1729345170365</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -559,7 +561,8 @@
     <MESSAGE value="multimodule" />
     <MESSAGE value="LLD machine coding basic" />
     <MESSAGE value="ADDED" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADDED" />
+    <MESSAGE value="LLD started" />
+    <option name="LAST_COMMIT_MESSAGE" value="LLD started" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
