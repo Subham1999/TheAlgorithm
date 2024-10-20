@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="LLD started">
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/decorator/BasePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/decorator/ExtraCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/decorator/ExtraSauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/decorator/FarmHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/decorator/Margherita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/decorator/Mashroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/decorator/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/decorator/ToppingDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/decorator/VegDelight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/strings/LongestChunkedPalindromeDecomposition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +102,7 @@
       <recent name="$PROJECT_DIR$/data-structures/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.thealgorithm.decorator.Test">
+  <component name="RunManager" selected="Application.LongestChunkedPalindromeDecomposition">
     <configuration name="DatabaseLocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thealgorithm.lld.DatabaseLocks" />
       <module name="data-structures" />
@@ -124,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EdmondKarpAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.graph.EdmondKarpAlgorithm" />
+    <configuration name="LongestChunkedPalindromeDecomposition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.strings.LongestChunkedPalindromeDecomposition" />
       <module name="data-structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thealgorithm.graph.*" />
+          <option name="PATTERN" value="com.thealgorithm.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestChunkedPalindromeDecomposition" />
         <item itemvalue="Application.com.thealgorithm.decorator.Test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.DatabaseLocks" />
         <item itemvalue="Application.MergeInterval" />
-        <item itemvalue="Application.EdmondKarpAlgorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -523,7 +515,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729345170365</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="LLD started">
+      <option name="closed" value="true" />
+      <created>1729348659507</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1729348659507</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
