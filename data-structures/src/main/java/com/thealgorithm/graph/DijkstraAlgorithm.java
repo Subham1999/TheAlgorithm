@@ -69,8 +69,10 @@ public class DijkstraAlgorithm {
             .addEdge(2, 3, 7)
             .addEdge(5, 3, 14)
             .addEdge(5, 4, 10)
-            .addEdge(3, 4, -9);
+            .addEdge(3, 4, 9);
 
     new DijkstraAlgorithm().dijkstra(graphCreator.getGraph(), graphCreator.getSize(), 0);
+    new DijkstraAlgorithm().dijkstra(graphCreator.getGraph(), graphCreator.getSize(), 8);
+    new DijkstraAlgorithm().dijkstra(graphCreator.getGraph(), graphCreator.getSize(), 6);
   }
 }
