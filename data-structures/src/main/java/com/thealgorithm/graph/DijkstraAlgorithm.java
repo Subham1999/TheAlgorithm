@@ -71,8 +71,8 @@ public class DijkstraAlgorithm {
             .addEdge(5, 4, 10)
             .addEdge(3, 4, 9);
 
-    new DijkstraAlgorithm().dijkstra(graphCreator.getGraph(), graphCreator.getSize(), 0);
-    new DijkstraAlgorithm().dijkstra(graphCreator.getGraph(), graphCreator.getSize(), 8);
-    new DijkstraAlgorithm().dijkstra(graphCreator.getGraph(), graphCreator.getSize(), 6);
+    new DijkstraAlgorithm().dijkstra(graphCreator.getAdjacencyMatrix(), graphCreator.getSize(), 0);
+    new DijkstraAlgorithm().dijkstra(graphCreator.getAdjacencyMatrix(), graphCreator.getSize(), 8);
+    new DijkstraAlgorithm().dijkstra(graphCreator.getAdjacencyMatrix(), graphCreator.getSize(), 6);
   }
 }
