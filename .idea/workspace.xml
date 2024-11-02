@@ -5,25 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="HARD">
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/BalanceSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/BalanceSheetEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/DebtResolverType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/Expense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/GroupBalanceSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/GroupExpenseValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/InvalidSplitException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/OperationNotSupportedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/PersonalBalanceSheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/ResolverStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/ResolverStrategyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/SimpleDebtResolverStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/SmartDebtResolverStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/UserIsNotPartOfGroupException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/UserSplit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/BalanceSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/BalanceSheet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/BalanceSheetEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/BalanceSheetEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/GroupBalanceSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/GroupBalanceSheet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/PersonalBalanceSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/PersonalBalanceSheet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +120,7 @@
       <recent name="com.thealgorithm.graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Shell Script.pre-commit">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ConnectedComponentOnUndirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thealgorithm.graph.ConnectedComponentOnUndirectedGraph" />
       <module name="data-structures" />
@@ -158,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestChunkedPalindromeDecomposition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.strings.LongestChunkedPalindromeDecomposition" />
-      <module name="data-structures" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.splitwise.Main" />
+      <module name="low-level-design" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thealgorithm.strings.*" />
+          <option name="PATTERN" value="com.thealgorithm.splitwise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Shell Script.pre-commit" />
         <item itemvalue="Application.ConnectedComponentOnUndirectedGraph" />
         <item itemvalue="Application.DijkstraAlgorithm" />
         <item itemvalue="Application.TopKFrequentWords" />
-        <item itemvalue="Application.LongestChunkedPalindromeDecomposition" />
       </list>
     </recent_temporary>
   </component>
@@ -602,7 +591,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730537779798</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="HARD">
+      <option name="closed" value="true" />
+      <created>1730571702127</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1730571702127</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -790,6 +787,11 @@
           <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/strings/ReorganizeStrings.java</url>
           <line>39</line>
           <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/splitwise/GroupBalanceSheet.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/graph/CoursesII.java</url>

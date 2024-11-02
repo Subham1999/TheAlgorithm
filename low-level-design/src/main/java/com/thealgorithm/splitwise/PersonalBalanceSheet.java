@@ -1,5 +1,6 @@
 package com.thealgorithm.splitwise;
 
+import java.util.HashMap;
 import java.util.Map;
 import lombok.Data;
 
@@ -8,7 +9,12 @@ import lombok.Data;
  */
 @Data
 public class PersonalBalanceSheet extends BalanceSheet {
-  Double totalOwe;
-  Double totalGetBack;
-  Map<User, BalanceSheetEntry> balanceSheetEntryMap; // otherUser --> entry
+  Double totalOwe = 0D;
+  Double totalGetBack = 0D;
+  Map<User, BalanceSheetEntry> balanceSheetEntryMap = new HashMap<>(); // otherUser --> entry
+
+  @Override
+  void update(User paidBy, User borrower, Double amount) {
+
+  }
 }

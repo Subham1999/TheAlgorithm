@@ -37,12 +37,25 @@ public class Main {
     picnicWala.add(
         Expense.builder()
             .paidBy(subham)
-            .totalAmount(100D)
+            .totalAmount(60D)
             .userSplits(
                 List.of(
-                    UserSplit.builder().user(subham).shareAmount(33D).build(),
-                    UserSplit.builder().user(shyam).shareAmount(33D).build(),
-                    UserSplit.builder().user(ram).shareAmount(34D).build()))
+                    UserSplit.builder().user(subham).shareAmount(20D).build(),
+                    UserSplit.builder().user(shyam).shareAmount(20D).build(),
+                    UserSplit.builder().user(ram).shareAmount(20D).build()))
             .build());
+
+    picnicWala.add(
+      Expense.builder()
+        .paidBy(shyam)
+        .totalAmount(60D)
+        .userSplits(
+          List.of(
+            UserSplit.builder().user(subham).shareAmount(20D).build(),
+            UserSplit.builder().user(shyam).shareAmount(20D).build(),
+            UserSplit.builder().user(ram).shareAmount(20D).build()))
+        .build());
+
+    picnicWala.getGroupBalanceSheet().print();
   }
 }
