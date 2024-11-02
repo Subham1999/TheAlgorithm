@@ -5,36 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1dce324-e0e9-40ed-8855-0f1c77b6fb86" name="Changes" comment="HARD">
-      <change afterPath="$PROJECT_DIR$/.githooks/pre-commit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/filesystem/CreateDirectory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/filesystem/CreateFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/filesystem/Directory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/filesystem/FileCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/filesystem/FileNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/filesystem/FileSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/filesystem/MyUnix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/filesystem/NotSupportedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/filesystem/SimpleAbstractFileNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/filesystem/SimpleDirectory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/filesystem/SimpleFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/parkinglot/FourWheeler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/parkinglot/Gate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/parkinglot/ParkingFloor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/parkinglot/ParkingLotSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/parkinglot/ParkingResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/parkinglot/ParkingSpot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/parkinglot/PaymentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/parkinglot/PaymentResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/parkinglot/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/parkinglot/PaymentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/parkinglot/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/parkinglot/TwoWheeler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/parkinglot/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/parkinglot/model/Attendant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/parkinglot/model/EntryGate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/parkinglot/model/ExitGate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/parkinglot/requirement.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build_test.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -604,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730274050189</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="HARD">
+      <option name="closed" value="true" />
+      <created>1730537779798</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1730537779798</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
