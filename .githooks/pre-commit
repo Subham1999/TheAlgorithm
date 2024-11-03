@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Run 'mvn clean install' and check if it succeeds
+echo "Running 'mvn clean install'..."
+if mvn clean install; then
+    echo "Build successful, proceeding with commit."
+else
+    echo "Build failed. Aborting commit."
+    exit 1
+fi
