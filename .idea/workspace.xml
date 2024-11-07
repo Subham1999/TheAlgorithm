@@ -5,27 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83512900-be3a-4162-b60f-535c10551c6d" name="Changes" comment="HARD">
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/BattingScoreCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/BowlingScoreCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/CatchWicketDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/HitWicketDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/Inning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/LBWWicketDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/Match.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/MatchType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/PlayerType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/WicketDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/event/BowledOutEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/event/FourEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/event/LBWEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/event/MatchEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/event/NormalRunMatchEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/event/SixerEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/event/WicketEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/pubsub/MatchEventObservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/cricbuzz/pubsub/MatchEventObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/pubsub/Broker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/pubsub/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/pubsub/RandomMessageGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/pubsub/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/pubsub/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/pubsub/TopicMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/pubsub/TopicSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/visitor/DeluxRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/visitor/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/visitor/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/visitor/RoomCleaner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/visitor/RoomVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/votingsystem/Candidate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/votingsystem/Citizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/votingsystem/ConstituencyVoteBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/votingsystem/ConstituencyVotingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/votingsystem/CountryVoteBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/votingsystem/DistrictVoteBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/votingsystem/MagicFigureWinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/votingsystem/Party.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/votingsystem/SimpleWinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/votingsystem/StateVoteBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/votingsystem/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/votingsystem/Vote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/votingsystem/VoteBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/votingsystem/VotingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/votingsystem/WinningStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,45 +54,35 @@
         <entry key="$PROJECT_DIR$" value="new_main" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2oTmoJBUOYrmj1o5T5JWgZu84l7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "back__tracking"
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;back__tracking&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.thealgorithm.pubsub" />
+      <recent name="com.thealgorithm.votingsystem" />
       <recent name="com.thealgorithm.cricbuzz" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="DijkstraAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.graph.DijkstraAlgorithm" />
-      <module name="data-structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thealgorithm.graph.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.splitwise.Main" />
-      <module name="low-level-design" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thealgorithm.splitwise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.thealgorithm.pubsub.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thealgorithm.observer.example.Test" />
       <module name="low-level-design" />
@@ -112,6 +109,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.thealgorithm.pubsub.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.pubsub.Test" />
+      <module name="low-level-design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thealgorithm.pubsub.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.thealgorithm.visitor.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thealgorithm.visitor.Main" />
+      <module name="low-level-design" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thealgorithm.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="pre-commit" type="ShConfigurationType" temporary="true">
       <option name="SCRIPT_TEXT" value="" />
       <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
@@ -129,15 +152,32 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.thealgorithm.pubsub.Test" />
+        <item itemvalue="Application.com.thealgorithm.visitor.Main" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Shell Script.pre-commit" />
         <item itemvalue="Application.TopKFrequentWords" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.DijkstraAlgorithm" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="HARD">
+      <option name="closed" value="true" />
+      <created>1730640988098</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730640988098</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83512900-be3a-4162-b60f-535c10551c6d" name="Changes" comment="HARD" />
+      <created>1730902113595</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730902113595</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -296,6 +336,16 @@
           <line>27</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/pubsub/Test.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/low-level-design/src/main/java/com/thealgorithm/pubsub/Test.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/graph/CoursesII.java</url>
           <line>44</line>
@@ -308,7 +358,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/data-structures/src/main/java/com/thealgorithm/backtracking/CombinationSumII.java</url>
           <line>20</line>
-          <properties class="com.thealgorithm.backtracking.CombinationSumII.Solution">
+          <properties class="com.thealgorithm.backtracking.CombinationSumII.Solution" method="helper">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
