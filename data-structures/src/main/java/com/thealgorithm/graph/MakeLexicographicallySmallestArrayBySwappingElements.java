@@ -63,6 +63,6 @@ public class MakeLexicographicallySmallestArrayBySwappingElements {
   }
 
   public static void main(String[] args){
-    System.out.println(new Solution().lexicographicallySmallestArray(new int[] {1, 4, 2, 1, 4, 2, 1}, 3));
+    System.out.println(Arrays.toString(new Solution().lexicographicallySmallestArray(new int[]{1, 4, 2, 1, 4, 2, 1}, 1)));
   }
 }
